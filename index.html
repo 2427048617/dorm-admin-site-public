@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页概览 · 宿舍查寝销假管理系统（公开演示版）</title>
+    <meta name="description" content="宿舍查寝销假管理系统（公开演示版）：面向学校宿舍的查寝与销假管理方案概览，双线开发、网页先行、零成本落地。">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="index">
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html">
+            <span class="logo">🛏</span>
+            <span>宿舍查寝销假管理系统</span>
+        </a>
+        <nav class="main-nav" id="mainNav">
+            <a href="index.html" data-page="index">首页概览</a>
+            <a href="features.html" data-page="features">功能模块</a>
+            <a href="plan.html" data-page="plan">实施与预算</a>
+            <a href="conclusion.html" data-page="conclusion">结论建议</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container">
+
+        <!-- Hero -->
+        <section class="hero">
+            <h1>宿舍查寝销假管理系统</h1>
+            <p class="sub">公开演示版｜面向学校宿舍的查寝与销假管理方案。集查寝记录、名单同步、在线表格展示于一体，低门槛、低成本、易落地。</p>
+            <div class="badges">
+                <span class="badge p1">一期 · 查寝记录 + 名单同步</span>
+                <span class="badge zero">0 元预算</span>
+                <span class="badge p1">GitHub Pages 免费托管</span>
+                <span class="badge p2">二期 · 扩展预留</span>
+            </div>
+            <div class="btn-row">
+                <a class="btn btn-primary" href="features.html">查看功能模块</a>
+                <a class="btn btn-outline" href="plan.html">了解实施计划</a>
+            </div>
+        </section>
+
+        <!-- 关键数据 -->
+        <section class="stats-grid">
+            <div class="stat-card">
+                <div class="num">720+</div>
+                <div class="lbl">学生规模</div>
+            </div>
+            <div class="stat-card">
+                <div class="num green">0 元</div>
+                <div class="lbl">一期年度预算</div>
+            </div>
+            <div class="stat-card">
+                <div class="num orange">4~6 周</div>
+                <div class="lbl">网页版上线周期</div>
+            </div>
+            <div class="stat-card">
+                <div class="num">0 台</div>
+                <div class="lbl">服务器 / 数据库</div>
+            </div>
+        </section>
+
+        <!-- 项目背景 -->
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📋</span>项目背景</h2>
+            <p>当前宿舍查寝依靠纸质名单人工点名，存在<strong>效率低、同步慢、数据难追溯</strong>等问题。本项目建设一套集<strong>查寝记录、名单同步、在线表格展示</strong>于一体的管理系统，提升查寝工作的效率与透明度。</p>
+            <p>本项目采用<strong>双线开发</strong>策略：<strong>一期先上线网页版（GitHub Pages），安卓 APP 作为双线并行开发、后续跟进</strong>。网页版与 APP 共用同一套数据（在线表格），后续可无缝切换/并存。</p>
+        </section>
+
+        <!-- 方案总览 -->
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🏗️</span>方案总览（网页先行 + APP 双线）</h2>
+            <p><strong>一线：GitHub Pages 网页版（查寝记录）直连在线表格 · 无服务器</strong></p>
+            <div class="arch">
+                <div class="arch-node">
+                    <h4>GitHub Pages 网页版</h4>
+                    <p>手机 / 电脑浏览器直接打开｜查寝端：名单查看、记录提交</p>
+                    <p>管理端：记录查看、名单维护</p>
+                </div>
+                <div class="arch-arrow">安全通道</div>
+                <div class="arch-node worker">
+                    <h4>免费 API 代理</h4>
+                    <p>统一请求转发 · 每日免费额度充足</p>
+                </div>
+                <div class="arch-arrow">读写</div>
+                <div class="arch-node table-node">
+                    <h4>在线表格（学校已有账号）</h4>
+                    <p>名单数据 + 查寝记录的统一存储</p>
+                </div>
+            </div>
+            <p>一期<strong>无服务器、无数据库</strong>：在线表格即数据存储；GitHub Pages 免费托管界面，API 代理免费中转，720 人规模绰绰有余。</p>
+        </section>
+
+        <!-- 双线开发 -->
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🔀</span>双线开发策略</h2>
+            <div class="dual-grid">
+                <div class="line-card line1">
+                    <h4>一线（先行）· GitHub Pages 网页版</h4>
+                    <ul>
+                        <li>载体：查寝记录网页版</li>
+                        <li>状态：<span class="badge p1">本期先做、优先上线</span></li>
+                        <li>成本：0 元 · 无服务器</li>
+                        <li>上线：4~6 周正式启用</li>
+                    </ul>
+                </div>
+                <div class="line-card line2">
+                    <h4>二线（并行）· 安卓 APP</h4>
+                    <ul>
+                        <li>载体：查寝端 / 销假组端 / 管理端</li>
+                        <li>状态：网页版稳定后并行开发</li>
+                        <li>成本：0 元 · 无服务器</li>
+                        <li>数据：与网页版共用在线表格</li>
+                    </ul>
+                </div>
+            </div>
+            <p>二期预留：<span class="badge p2">扩展功能按需启用</span></p>
+        </section>
+
+        <!-- 快速导航 -->
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🧭</span>网站导航</h2>
+            <div class="nav-grid">
+                <a class="nav-card" href="features.html">
+                    <div class="nc-icon">👥</div>
+                    <h4>功能模块与角色</h4>
+                    <p>系统功能概览与角色职责简介</p>
+                </a>
+                <a class="nav-card" href="plan.html">
+                    <div class="nc-icon">📅</div>
+                    <h4>实施计划与预算</h4>
+                    <p>0 元费用构成、双线实施计划与甘特示意</p>
+                </a>
+                <a class="nav-card" href="conclusion.html">
+                    <div class="nc-icon">🛡️</div>
+                    <h4>结论与立项建议</h4>
+                    <p>方案整体结论与实施建议</p>
+                </a>
+                <a class="nav-card" href="README.md">
+                    <div class="nc-icon">🚀</div>
+                    <h4>部署指南</h4>
+                    <p>GitHub Pages 部署步骤与本地预览说明（README）</p>
+                </a>
+            </div>
+        </section>
+
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <span>宿舍查寝销假管理系统 · 公开演示版</span>
+        <span>© <span id="year">2026</span> 一期网页版 · 双线开发 · 网页先行</span>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
