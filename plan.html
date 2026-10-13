@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实施计划与预算 · 宿舍查寝销假管理系统（公开演示版）</title>
+    <meta name="description" content="宿舍查寝销假管理系统实施计划与预算（公开演示版）：0 元费用构成、双线实施计划甘特。">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="plan">
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html">
+            <span class="logo">🛏</span>
+            <span>宿舍查寝销假管理系统</span>
+        </a>
+        <nav class="main-nav" id="mainNav">
+            <a href="index.html" data-page="index">首页概览</a>
+            <a href="features.html" data-page="features">功能模块</a>
+            <a href="plan.html" data-page="plan">实施与预算</a>
+            <a href="conclusion.html" data-page="conclusion">结论建议</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container">
+
+        <div class="crumbs"><a href="index.html">首页</a> / 实施计划与预算</div>
+
+        <div class="page-head">
+            <h1>实施计划与预算</h1>
+            <p>一期 0 元预算落地，二期按需启用。</p>
+        </div>
+
+        <!-- 费用预算 -->
+        <section class="card">
+            <h2 class="card-title"><span class="icon">💰</span>费用预算 <span class="badge zero">一期 0 元</span></h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>项目</th>
+                            <th>费用（一期）</th>
+                            <th>说明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>服务器 / 数据库</td>
+                            <td><strong>0 元</strong></td>
+                            <td>无自建服务器，GitHub Pages 免费托管</td>
+                        </tr>
+                        <tr>
+                            <td>域名</td>
+                            <td><strong>0 元</strong></td>
+                            <td>使用 GitHub Pages 免费子域名</td>
+                        </tr>
+                        <tr>
+                            <td>数据存储</td>
+                            <td><strong>0 元</strong></td>
+                            <td>复用学校已有在线表格账号</td>
+                        </tr>
+                        <tr>
+                            <td>API 代理</td>
+                            <td><strong>0 元</strong></td>
+                            <td>免费额度充足，覆盖日常使用</td>
+                        </tr>
+                        <tr>
+                            <td>开发工具</td>
+                            <td><strong>0 元</strong></td>
+                            <td>全部使用免费开发与协作工具</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><strong>一期年度总费用：0 元</strong>（不含人力成本）</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p><span class="badge p2">二期</span>扩展功能按实际方案另行评估，整体保持低成本。</p>
+        </section>
+
+        <!-- 双线实施计划 -->
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📅</span>双线实施计划</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>阶段</th>
+                            <th>网页版（一线）</th>
+                            <th>安卓 APP（二线）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>需求 / 设计</td>
+                            <td>第 1 周：确认需求与数据内容</td>
+                            <td>与网页版同步对齐方案</td>
+                        </tr>
+                        <tr>
+                            <td>开发</td>
+                            <td>第 2~4 周：页面开发 + 数据对接 + 联调</td>
+                            <td>网页版稳定后并行开发</td>
+                        </tr>
+                        <tr>
+                            <td>测试</td>
+                            <td>第 4 周：真实场景试运行</td>
+                            <td>与网页版共用数据联调</td>
+                        </tr>
+                        <tr>
+                            <td>上线</td>
+                            <td>第 4~6 周：正式启用</td>
+                            <td>二期 / 按需启用</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 甘特示意 -->
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📊</span>实施甘特示意（网页版）</h2>
+            <div class="gantt">
+                <div class="gantt-row">
+                    <span class="gantt-label">需求设计</span>
+                    <div class="gantt-track"><div class="gantt-bar" style="left:0%;width:16.66%;background:var(--primary);">第 1 周</div></div>
+                </div>
+                <div class="gantt-row">
+                    <span class="gantt-label">开发联调</span>
+                    <div class="gantt-track"><div class="gantt-bar" style="left:16.66%;width:50%;background:var(--primary-dark);">第 2~4 周</div></div>
+                </div>
+                <div class="gantt-row">
+                    <span class="gantt-label">试运行</span>
+                    <div class="gantt-track"><div class="gantt-bar" style="left:50%;width:16.66%;background:var(--accent);">第 4 周</div></div>
+                </div>
+                <div class="gantt-row">
+                    <span class="gantt-label">正式启用</span>
+                    <div class="gantt-track"><div class="gantt-bar" style="left:66.66%;width:33.34%;background:var(--warning);">第 4~6 周</div></div>
+                </div>
+            </div>
+            <div class="gantt-week"><span>W1</span><span>W2</span><span>W3</span><span>W4</span><span>W5</span><span>W6</span></div>
+        </section>
+
+        <p style="text-align:center;color:var(--muted);margin-top:12px"><a href="conclusion.html">下一步：查看结论与立项建议 →</a></p>
+
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <span>宿舍查寝销假管理系统 · 公开演示版</span>
+        <span>© <span id="year">2026</span> 一期网页版 · 双线开发 · 网页先行</span>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
